@@ -1,4 +1,7 @@
-from DocumentCreator import DocumentCreator
+from ExcelDocumentCreator import ExcelDocumentCreator
+from PDFDocumentCreator import PDFDocumentCreator
+from WordDocumentCreator import WordDocumentCreator
+
 wordDoc = WordDocumentCreator()
 wordDoc.factory_method()
 pdfDoc = PDFDocumentCreator()
