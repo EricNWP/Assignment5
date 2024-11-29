@@ -2,7 +2,7 @@ from typing import Type
 from typing import Self
 from abc import ABC, abstractmethod
 from Document import Document
-fromt WordDocumentCreator import WordDocumentCreator
+from WordDocumentCreator import WordDocumentCreator
 from ExcelDocumentCreator import ExcelDocumentCreator
 from PDFDocumentCreator import PDFDocumentCreator
 
