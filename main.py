@@ -1,4 +1,4 @@
-import DocumentCreator
+from DocumentCreator import DocumentCreator
 wordDoc = WordDocumentCreator()
 wordDoc.factory_method()
 pdfDoc = PDFDocumentCreator()
