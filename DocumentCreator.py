@@ -1,10 +1,10 @@
 from typing import Type
 from typing import Self
 from abc import ABC, abstractmethod
-import Document
-import WordDocumentCreator
-import ExcelDocumentCreator
-import PDFDocumentCreator
+from Document import Document
+fromt WordDocumentCreator import WordDocumentCreator
+from ExcelDocumentCreator import ExcelDocumentCreator
+from PDFDocumentCreator import PDFDocumentCreator
 
 class DocumentCreator:
   def __init__(self) -> None:
