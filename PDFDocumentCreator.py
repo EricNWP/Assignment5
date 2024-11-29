@@ -1,5 +1,5 @@
-import DocumentCreator
-import Document
+from DocumentCreator import DocumentCreator
+from Document import Document
 from typing import Self
 class PDFDocumentCreator(DocumentCreator):
   def __init__(self):
