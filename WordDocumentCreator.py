@@ -1,4 +1,4 @@
-import DocumentCreator
+from DocumentCreator import DocumentCreator
 from typing import Self
 class WordDocumentCreator(DocumentCreator):
   def __init__(self):
