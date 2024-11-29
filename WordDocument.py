@@ -1,4 +1,5 @@
 from typing import Self
+import Document
 class WordDocument(Document):
 
   def __init__(self):
