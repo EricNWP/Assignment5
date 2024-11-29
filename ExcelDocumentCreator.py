@@ -1,4 +1,5 @@
 from DocumentCreator import DocumentCreator
+from Document import Document
 from typing import Self
 class ExcelDocumentCreator(DocumentCreator):
   def __init__(self):
