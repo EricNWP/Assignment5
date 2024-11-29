@@ -1,5 +1,5 @@
 import DocumentCreator
-from typing_extensions import Self
+from typing import Self
 class ExcelDocumentCreator(DocumentCreator):
   def __init__(self):
     super().__init__()
