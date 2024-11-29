@@ -1,5 +1,5 @@
 from typing import Type
-from typing_extensions import Self
+from typing import Self
 from abc import ABC, abstractmethod
 import Document
 import WordDocumentCreator
